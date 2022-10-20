@@ -1,0 +1,33 @@
+print("simple game")
+print("====================")
+var activeplayer = 1
+var random_number = 4
+
+while 1 do
+	if activeplayer == 1 do 
+		print("Player1")
+		print("Enter a number from 1 to 10")
+		var p1number = int_input()
+		if p1number == random_number do
+			print("Ops, you lose the game, good luck next time :)")
+			print("Player2 wins")
+			break
+		else
+			print("well done :)")
+			var activeplayer = 2
+		end
+	elif activeplayer == 2 do
+		print("Player2")
+		print("Enter a number from 1 to 10")
+		var p1number = int_input()
+		if p1number == random_number do
+			print("Ops, you lose the game, good luck next time :)")
+			print("Player1 wins")
+			break
+		else
+			print("well done :)")
+			var activeplayer = 1
+		end
+
+	end
+end

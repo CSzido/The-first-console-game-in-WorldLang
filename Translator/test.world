@@ -1,0 +1,4 @@
+drucken("hello wاundld")
+variable a = 10
+drucken(a + 1)
+drucken(ganze_Zahl_eingang())
