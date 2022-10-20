@@ -3,7 +3,7 @@ print("====================")
 var activeplayer = 1
 var random_number = 4
 
-while 1 do
+while true do
 	if activeplayer == 1 do 
 		print("Player1")
 		print("Enter a number from 1 to 10")
